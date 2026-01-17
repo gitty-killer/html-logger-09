@@ -1,10 +1,21 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sample</title>
-  </head>
-  <body>
-    <h1>Hello from html</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TextStats</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>TextStats</h1>
+    <p>Paste text and see quick metrics and top words.</p>
+    <textarea id="input" rows="12" placeholder="Paste text here..."></textarea>
+    <div class="controls">
+      <label>Top N <input id="top" type="number" value="10" min="1" max="50"></label>
+      <button id="run">Analyze</button>
+    </div>
+    <div id="output"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
 </html>

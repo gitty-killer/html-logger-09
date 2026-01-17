@@ -1,1 +1,5 @@
-body { font-family: sans-serif; }
+body { font-family: Arial, sans-serif; margin: 24px; }
+main { max-width: 800px; margin: 0 auto; }
+textarea { width: 100%; font-family: monospace; margin-top: 8px; }
+.controls { margin: 12px 0; display: flex; gap: 12px; align-items: center; }
+#output { white-space: pre; background: #f6f6f6; padding: 12px; border-radius: 6px; }
